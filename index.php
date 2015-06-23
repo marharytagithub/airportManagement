@@ -23,6 +23,7 @@ $airportOb->setSky($planeOb4);
 
 $airportOb->setGatePlane($airportOb::GATE_A, $planeOb5);
 $airportOb->setGatePlane($airportOb::GATE_C, $planeOb6);
+$airportOb->setGatePlane($airportOb::GATE_C, $planeOb6); // test validation 
 
 $countDepartAreaPlane = $airportOb->countDepartAreaPlane();
 $countSkyPlane = $airportOb->countSkyPlane();
